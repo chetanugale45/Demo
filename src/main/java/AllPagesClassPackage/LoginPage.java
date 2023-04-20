@@ -48,6 +48,11 @@ public class LoginPage extends BasicClass{
 		return b;
 	}
 	
+	public boolean validateImage1()
+	{
+		boolean b =facebookimage.isDisplayed();
+		return b;
+	}
 	public HomePage login(String us, String pass)
 	{
 		username.sendKeys(us);
