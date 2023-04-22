@@ -8,7 +8,7 @@ import BasicClassPackage.BasicClass;
 
 
 public class LoginPage extends BasicClass{
-	
+	//chetan
 	@FindBy(className = "_97vu img")
 	WebElement facebookimage;
 	
